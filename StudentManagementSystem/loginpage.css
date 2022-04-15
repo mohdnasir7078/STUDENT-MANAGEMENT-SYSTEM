@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(146, 84, 84, 0.842);
+    background-image: url('GEU.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+   border-image-width: auto;
+  margin: 0;
+  padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    background: linear-gradient(rgb(196, 179, 124),rgb(123, 142, 207),rgb(190, 160, 160),rgb(143, 107, 107),rgb(142, 160, 142));
+    border: 3px solid black;
+    width: 30%;
+    height: 500px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-left: 460px;
+    border-radius: 6px;
+}
+.geu{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    margin-left: 45px;
+    margin-top: 50px;
+    background-color: red;
+}
+.submit{
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:red;
+}
+#submit1{
+    width: 150px;
+}
+#submit2{
+    width: 150px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: green;
+}
